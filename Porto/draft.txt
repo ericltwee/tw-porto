@@ -1,0 +1,39 @@
+<div class="flex flex-50-gt-sm waypoint bars-wrap animated slide-in-right" data-animation="slide-in-right">
+              <div class="bar flex">
+                <div class="bar fill" style="width:90%">
+                  <div class="tag bold flex">CSS</div>
+                </div>
+                <span>90%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:90%">
+                  <div class="tag bold flex">HTML</div>
+                </div>
+                <span>90%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:50%">
+                  <div class="tag bold flex">React</div>
+                </div>
+                <span>60%</span>
+              </div>
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:60%">
+                  <div class="tag bold flex">JavaScript</div>
+                </div>
+                <span>60%</span>
+              </div>
+
+
+
+              <div class="bar flex">
+                <div class="bar fill" style="width:30%">
+                  <div class="tag bold flex">Python</div>
+                </div>
+                <span>30%</span>
+              </div>
+
+            </div>

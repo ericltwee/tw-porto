@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mySidenav a {
+  position: fixed; /* Position them relative to the browser window */
+  left: -100px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 120px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  background-color: rgb(44, 44, 44);
+  text-align: left;
+}
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+#hometag {
+  top: 80px;
+}
+
+#abouttag {
+  top: 140px;
+}
+
+#bgtag {
+  top: 200px;
+}
+
+#skilltag {
+  top: 260px;
+}
+
+#contacttag {
+  top: 320px;
+}
+
+#home {
+  width: 100%;
+  height: 80vh;
+  background-color: #a4a4a4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vw;
+  background-repeat: no-repeat;
+  background-image: url(/img/keyboardd.jpg);
+  background-size: cover;
+}
+
+.hometxt {
+  color: #def3e1;
+  font-size: medium;
+}
+
+#about {
+  height: 60vh;
+  background-color: #4a4a4a;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.abtcontainer {
+  display: flex;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: space-evenly;
+}
+
+.selltxt {
+  color: rgb(0, 14, 4);
+  font-size: 1.5vw;
+  width: 40%;
+  text-align: right;
+}
+
+#background {
+  height: 60vh;
+  background-color: #a4a4a4;
+  text-align: center;
+  overflow: auto;
+}
+
+#skills {
+  height: 60vh;
+  background-color: #4a4a4a;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.skcontainer {
+  width: 40vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#contact {
+  height: 60vh;
+  background-color: #a4a4a4;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.ctcontainer {
+  width: 40vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.codecons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bar-icon {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footr {
+  background-color: #4a4a4a;
+  display: flex;
+}
+
+#propic {
+  width: 250px;
+  height: 250px;
+}
+
+.icon-bar a {
+  color: black;
+  transition: transform 0.2s;
+}
+
+.icon-bar a:hover {
+  transform: scale(3);
+}
+
+.bar-icon {
+  color: #ffffff;
+}
+.bar.fill {
+  background-image: linear-gradient(to right, rgb(20, 66, 0), rgb(0, 184, 0));
+  text-align: left;
+  align-items: center;
+  padding-top: auto;
+  padding-bottom: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bar.flex {
+  border: solid 1px;
+  border-radius: 10px;
+  text-align: right;
+  display: flex;
+  height: 50px;
+  margin: 5px;
+  /* padding-top: auto;
+  padding-bottom: auto; */
+}
+
+.tag.bold.flex {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.spann {
+  display: flex;
+  align-items: center;
+  /* flex-direction: row-reverse; */
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 184, 0);
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
