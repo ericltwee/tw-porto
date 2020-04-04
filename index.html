@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <script
       src="https://kit.fontawesome.com/99c833502b.js"
       crossorigin="anonymous"
@@ -51,7 +57,7 @@
     </div>
     <div id="background">
       <article class="timeline">
-        <section class="timeline__section">
+        <div class="row">
           <div class="wrapper">
             <h1>nov2011-nov2019</h1>
             <h2>Secret Recipe Cakes & Cafe, Malaysia</h2>
@@ -79,31 +85,21 @@
               6 months internship in various departments within the
               resort.Housekeeping, Front-desk, Restaurants, and the Bar.
             </p>
-            <!-- <hr />
-            <h1>2013</h1>
-            <p>Lorem this</p>
-            <p>Lorem that</p>
-            <h1>2014</h1>
-            <p>Lorem this</p>
-            <p>Lorem that</p>
-            <h1>2015</h1>
-            <p>Lorem this</p>
-            <p>Lorem that</p> -->
           </div>
-        </section>
+        </div>
       </article>
     </div>
-    <div id="skills">
-      <div class="skcontainer">
+    <div id="skills" class="row justify-content-center">
+      <div class="skcontainer col-md-4 col-7">
         <section>SKILLS</section>
         <p>Full Stack Web Development Bootcamp @ NEXT ACADEMY</p>
         <p>
           Lorem later
         </p>
       </div>
-      <div class="bar-icon">
+      <div class="bar-icon col-md-4 col-7">
         <div class="bar flex">
-          <div class="bar fill" style="width:90%">
+          <div class="bar fill" style="width: 90%;">
             <div class="tag bold flex">
               <i class="fab fa-html5 fa-2x"></i> HTML
             </div>
@@ -111,7 +107,7 @@
           <span class="spann">90%</span>
         </div>
         <div class="bar flex">
-          <div class="bar fill" style="width:90%">
+          <div class="bar fill" style="width: 90%;">
             <div class="tag bold flex">
               <i class="fab fa-css3-alt fa-2x"></i> CSS
             </div>
@@ -120,7 +116,7 @@
         </div>
 
         <div class="bar flex">
-          <div class="bar fill" style="width:60%">
+          <div class="bar fill" style="width: 60%;">
             <div class="tag bold flex">
               <i class="fab fa-react fa-2x"></i> React
             </div>
@@ -129,7 +125,7 @@
         </div>
 
         <div class="bar flex">
-          <div class="bar fill" style="width:60%">
+          <div class="bar fill" style="width: 60%;">
             <div class="tag bold flex">
               <i class="fab fa-js-square fa-2x"></i> JavaScript
             </div>
@@ -138,7 +134,7 @@
         </div>
 
         <div class="bar flex">
-          <div class="bar fill" style="width:50%">
+          <div class="bar fill" style="width: 50%;">
             <div class="tag bold flex">
               <i class="fab fa-python fa-2x"></i> Python
             </div>
@@ -147,7 +143,7 @@
         </div>
 
         <div class="bar flex">
-          <div class="bar fill" style="width:50%">
+          <div class="bar fill" style="width: 50%;">
             <div class="tag bold flex"><i class="fab fa-sass"></i> SASS</div>
           </div>
           <div class="spann"><span>50%</span></div>
@@ -155,7 +151,38 @@
       </div>
     </div>
     <div id="projects">
-      dddd
+      <div class="prohead"><h2>Projects</h2></div>
+      <div id="projectt" class="row justify-content-center">
+        <div class="m-3 col-md-3">
+          <h1>Tic Tac Toe</h1>
+          <p>Creating the game on various platforms:</p>
+          <ul>
+            <li>Plain HTML, CSS, JS</li>
+            <li>on React</li>
+            <li>In terminal (Python)</li>
+          </ul>
+        </div>
+        <div class="m-3 col-md-3">
+          <h1>Nextagram</h1>
+          <p>Replicating Instagram app on REACT, functions include:</p>
+          <ul>
+            <li>User signup/signin/logout</li>
+            <li>Manage/update users' details</li>
+            <li>Uploading/managing images</li>
+          </ul>
+        </div>
+        <div class="m-3 col-md-3">
+          <h1>Bloodi</h1>
+          <p>
+            Group project : an informative React web app on general blood info,
+            blood drive/donations and/or events nearby.
+          </p>
+          <p>
+            Was responsible of the overall UI/UX of the project while
+            coordinating with surbodinates in both frontend and backend.
+          </p>
+        </div>
+      </div>
     </div>
     <div id="contact">
       <div class="ctcontainer">

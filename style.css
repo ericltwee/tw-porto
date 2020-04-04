@@ -8,7 +8,7 @@ body {
   left: -100px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
-  width: 120px; /* Set a specific width */
+  width: 130px; /* Set a specific width */
   text-decoration: none; /* Remove underline */
   font-size: 20px; /* Increase font size */
   color: rgb(53, 238, 105); /* White text color */
@@ -25,23 +25,23 @@ body {
 }
 
 #abouttag {
-  top: 140px;
+  top: 145px;
 }
 
 #bgtag {
-  top: 200px;
+  top: 210px;
 }
 
 #skilltag {
-  top: 260px;
+  top: 275px;
 }
 
 #projtag {
-  top: 320px;
+  top: 340px;
 }
 
 #contacttag {
-  top: 380px;
+  top: 405px;
 }
 
 #home {
@@ -105,15 +105,24 @@ body {
 
 #projects {
   height: 60vh;
-  background-color: black;
+  background-color: rgb(81, 81, 81);
+  /* display: flex;
+  justify-content: center; */
+}
+
+.prohead {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
 }
 
 #skills {
   height: 60vh;
   background-color: #4a4a4a;
-  display: flex;
   text-align: center;
-  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .skcontainer {
@@ -123,8 +132,9 @@ body {
 }
 
 #contact {
-  height: 30vh;
-  background-color: #a4a4a4;
+  height: 40vh;
+  color: rgb(64, 248, 64);
+  background-color: #000000;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -165,6 +175,10 @@ html {
   height: 250px;
 }
 
+#projectt {
+  color: rgb(8, 45, 0);
+}
+
 .icon-bar {
   display: flex;
   justify-content: space-evenly;
@@ -172,7 +186,7 @@ html {
 }
 
 .icon-bar a {
-  color: black;
+  color: rgb(255, 255, 255);
   transition: transform 0.2s;
 }
 
