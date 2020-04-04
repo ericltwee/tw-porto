@@ -80,7 +80,6 @@ body {
 
 .selltxt {
   color: rgb(0, 174, 49);
-  font-size: 1.5vw;
   width: 40%;
   text-align: right;
 }
@@ -106,8 +105,7 @@ body {
 #projects {
   height: 60vh;
   background-color: rgb(81, 81, 81);
-  /* display: flex;
-  justify-content: center; */
+  overflow: auto;
 }
 
 .prohead {
@@ -123,6 +121,7 @@ body {
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;
+  overflow: auto;
 }
 
 .skcontainer {
