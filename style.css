@@ -68,15 +68,16 @@ body {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
+  overflow: auto;
 }
 
-.abtcontainer {
+/* .abtcontainer {
   display: flex;
   position: relative;
   margin-top: auto;
   margin-bottom: auto;
   justify-content: space-evenly;
-}
+} */
 
 .selltxt {
   color: rgb(0, 174, 49);
@@ -103,12 +104,14 @@ body {
 }
 
 #projects {
-  height: 60vh;
-  background-color: rgb(81, 81, 81);
+  height: 70vh;
+  min-height: 60vh;
+  background-color: #a4a4a4;
   overflow: auto;
 }
 
 .prohead {
+  text-align: center;
   position: relative;
   bottom: 0;
   right: 0;
@@ -116,11 +119,10 @@ body {
 }
 
 #skills {
-  height: 60vh;
+  height: 70vh;
+  min-height: 60vh;
   background-color: #4a4a4a;
   text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
   overflow: auto;
 }
 
@@ -175,7 +177,7 @@ html {
 }
 
 #projectt {
-  color: rgb(8, 45, 0);
+  color: rgb(4, 50, 8);
 }
 
 .icon-bar {
@@ -191,7 +193,7 @@ html {
 
 .icon-bar a:hover {
   color: rgb(31, 184, 0);
-  transform: scale(3);
+  transform: scale(2.5);
 }
 
 .bar-icon {
